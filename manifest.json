@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Screen Audit",
+  "version": "1.0",
+  "description": "Creating accountability for screen time.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+  ],
+  "icons": {
+  },
+  "options_page": "options.html"
+}
