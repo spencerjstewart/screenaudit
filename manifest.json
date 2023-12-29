@@ -10,6 +10,9 @@
     "service_worker": "background.js"
   },
   "permissions": [
+    "https://*/*",
+    "background",
+    "https://www.rescuetime.com/*"
   ],
   "icons": {
   },
