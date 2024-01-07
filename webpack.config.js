@@ -18,7 +18,7 @@ module.exports = {
         { from: 'manifest.json', to: 'manifest.json' },
         { from: 'src/options/options.html', to: 'options.html' },
         { from: 'src/popup/popup.html', to: 'popup.html' },
-        // you can also copy other assets in a similar manner
+        { from: 'src/options/options.css', to: 'options.css' },
       ]
     }),
     new Dotenv()
